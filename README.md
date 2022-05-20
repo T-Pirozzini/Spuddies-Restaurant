@@ -14,8 +14,10 @@ This was our Mid-Term Project at Lighthouse Labs.
 
 ## :video_camera: Live Demo
 <a href="https://spuddies-food-ordering.herokuapp.com/">Click Here!</a>
-<a href="https://spuddies-food-ordering.herokuapp.com/orders">Vender View</a>
+
 Please Note: This is for demo purposes only. You will need a Twilio account to test the notifications feature.
+
+<a href="https://spuddies-food-ordering.herokuapp.com/orders">Vender View</a>
 
 ## :camera: Screenshots
 Home/Menu:

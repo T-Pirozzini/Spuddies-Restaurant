@@ -1,30 +1,32 @@
-## Overview
-A mock-up of an application designed to allow hungry customers to place food orders (for pickup) with a fictitious restaurant (Spuddies). The app includes interfaces for both customers and restaurant owners. 
+# 🥔 Spuddies Restaurant
 
-Users can browse a menu, filter by category, choose individual items, update their quantity, remove unwanted items, see item subtotals and a grand total, which updates live. When they place an order, they receive visual feedback that the order has been received and a loading bar shows the progress of their order towards pick-up-ready status. 
+## Description
+At Spuddies a user can cycle through menu items and place an order. After an order is placed the restaurant owner is alerted via SMS that an order has been placed. When the users order is completed they will receive an SMS from the restaurant. These notifications are made via the Twilio API.
 
-The restaurant owner will receive a notification via SMS (using Twilio's API) that an order has been placed, along with the order number. They can fetch information about any order by entering the order number on their side of the website. They can then send the customer a SMS notification with an estimate as to when their order will be ready for pickup. The loading bar on the customer side will advance in proportion to the ETA provided. When the order is ready, the customer will receive another SMS notification to let them know.
+This was our Mid-Term Project at Lighthouse Labs.
+#### Stack: HTML/CSS/JS/PostgreSQL
+#### API: Twilio
 
-## Final Product
+## Authors
+- [Travis Pirozzini ](https://github.com/T-Pirozzini)
+- [Ryan MacEachern](https://github.com/Rmaceac)
+- [Dylan Pirrotta](https://github.com/dpirrott)
+
+## :video_camera: Live Demo
+<a href="https://spuddies-food-ordering.herokuapp.com/">Click Here!</a>
+<a href="https://spuddies-food-ordering.herokuapp.com/orders">Vender View</a>
+Please Note: This is for demo purposes only. You will need a Twilio account to test the notifications feature.
+
+## :camera: Screenshots
+Home/Menu:
 !["Menu View"](https://github.com/Rmaceac/midterm-project/blob/master/public/docs/spuddies-front-page.png?raw=true)
+Order Receipt:
 !["Order View"](https://github.com/Rmaceac/midterm-project/blob/master/public/docs/spuddies-order-placed.png?raw=true)
+Vendor View:
 !["Restaurant View"](https://github.com/Rmaceac/midterm-project/blob/master/public/docs/spuddies-restaurant-pov.png?raw=true)
 
-LHL Node Skeleton
-=========
 
-## Project Setup
-
-The following steps are only for _one_ of the group members to perform.
-
-1. Create your own copy of this repo using the `Use This Template` button, ideally using the name of your project. The repo should be marked Public
-2. Verify that the skeleton code now shows up in your repo on GitHub, you should be automatically redirected
-3. Clone your copy of the repo to your dev machine
-4. Add your team members as collaborators to the project so that they can push to this repo
-5. Let your team members know the repo URL so that they use the same repo (they should _not_ create a copy/fork of this repo since that will add additional workflow complexity to the project)
-
-
-## Getting Started
+## :wrench: Getting Started
 
 1. Create the `.env` by using `.env.example` as a reference: `cp .env.example .env`
 2. Update the .env file with your correct local information 
